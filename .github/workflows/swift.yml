@@ -1,4 +1,4 @@
-name: Check for update
+name: Check for update and tag
 
 on:
   schedule:
