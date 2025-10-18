@@ -10,7 +10,7 @@ let package = Package(
             targets: ["TensorFlowLite"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/polyguard-ai/TensorFlowLiteC.git", .tag("0.0.20241119")),
+        .package(url: "https://github.com/exitek-io/TensorFlowLiteC.git", .branch("master")),
     ],
     targets: [
         .target(
